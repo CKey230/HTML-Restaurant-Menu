@@ -15,6 +15,7 @@ h3,
 p,
 li {
     color: green;
+    
 }
 
 img {
@@ -28,8 +29,9 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background-color: coral;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -53,7 +55,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: white;
 }
@@ -72,6 +74,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    
 }
 
 table {
@@ -83,4 +86,24 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+#bulletpoint {
+            list-style-position: inside;
+            padding-right: 5%;
+}
+
+#closure {
+    width: 100%;
+    padding: 25px;
+    background-color: yellow;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color:green;
+}
+
+footer p {
+    color: white;
 }
